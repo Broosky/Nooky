@@ -7,7 +7,6 @@ This board converts standard 5V USB power (or other DC input up to 7V) down to a
 regulator module, allowing devices normally powered by batteries to run continuously without battery replacements.
 
 > If you found this project useful, interesting, or worth keeping an eye on, consider giving it a ⭐️.
-> It helps others discover the project and motivates me to keep building and sharing more.
 
 ## 🔹 Construction
 
@@ -15,13 +14,18 @@ regulator module, allowing devices normally powered by batteries to run continuo
 
 ![Nooky 2](<Construction/Nooky 2.jpg>)
 
-## 🔹 Rev 1 Schematic
+## 🔹 Rev 1.1 Schematic
 
-![Rev 1](<Schematics/Rev 1.png>)
+![Rev 1.1](<Schematics/Rev 1.1/Plotted/Nooky.svg>)
+
+## 🔹 Rev 1.1
+
+* 3.25VDC unloaded output, 2.9VDC loaded.
+* 1R 1W series resistor.
 
 ## 🔹 Rev 1
 
-- Initial release.
+* Initial release.
 
 ##
 

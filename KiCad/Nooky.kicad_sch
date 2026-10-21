@@ -7,7 +7,7 @@
 	(title_block
 		(title "Nooky")
 		(date "2026-05-05")
-		(rev "1")
+		(rev "1.1")
 		(company "Illusion Interactive")
 	)
 	(lib_symbols
@@ -1490,13 +1490,23 @@
 	)
 	(text "Optional"
 		(exclude_from_sim no)
-		(at 147.066 90.424 0)
+		(at 147.32 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cc92f8ac-3e22-4423-9b41-a4cfd8652f2d")
+	)
+	(text "2.90VDC Loaded"
+		(exclude_from_sim no)
+		(at 193.548 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ece6a8da-a504-41d5-b2ad-e3d657c6aa4e")
 	)
 	(junction
 		(at 184.15 93.98)
@@ -1511,16 +1521,10 @@
 		(uuid "46f862f8-402b-4f80-b891-75db016db2f6")
 	)
 	(junction
-		(at 153.67 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f95285e-98a3-41e8-be28-8338a4f4d487")
-	)
-	(junction
 		(at 140.97 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86b15621-46af-485f-b6e6-56200a10acf7")
+		(uuid "518d6f2b-9305-4c49-b826-372b1bb8852a")
 	)
 	(junction
 		(at 100.33 97.79)
@@ -1545,6 +1549,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e382762c-ba55-4d80-9c1c-2310fa2217cc")
+	)
+	(junction
+		(at 153.67 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee031cda-18c8-413b-b79c-afde4c9c6c19")
 	)
 	(junction
 		(at 96.52 101.6)
@@ -1608,11 +1618,11 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 93.98) (xy 140.97 87.63)
+			(xy 140.97 93.98) (xy 140.97 91.44)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "23b00915-3240-46b4-bc42-8a89751e8b9f")
 	)
@@ -1658,11 +1668,11 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 144.78 87.63)
+			(xy 140.97 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "3ec39a9e-25cf-49ed-9a08-6ee3d408b38a")
 	)
@@ -1728,11 +1738,11 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 153.67 87.63)
+			(xy 149.86 91.44) (xy 153.67 91.44)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "78dd0e00-7012-4e2e-bddf-4de6a5fe1b37")
 	)
@@ -1778,11 +1788,11 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 153.67 93.98)
+			(xy 153.67 91.44) (xy 153.67 93.98)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "a5b05afb-a1ff-4639-9019-7ff3e246d6ae")
 	)
@@ -2027,7 +2037,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 147.32 87.63 270)
+		(at 147.32 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2035,10 +2045,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b84e6ac-80c6-4853-8517-63cc29ef9e0e")
 		(property "Reference" "R1"
-			(at 147.32 81.28 90)
+			(at 147.32 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,8 +2056,8 @@
 				)
 			)
 		)
-		(property "Value" "1R"
-			(at 147.32 83.82 90)
+		(property "Value" "1R 1W"
+			(at 147.32 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2058,7 +2067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 87.63 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,7 +2078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 87.63 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2080,7 +2089,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 147.32 87.63 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2297,7 @@
 				)
 			)
 		)
-		(property "Value" "VADJ (2.85VDC)"
+		(property "Value" "VADJ (3.25VDC Unloaded)"
 			(at 193.04 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2447,7 +2456,7 @@
 				)
 			)
 		)
-		(property "Value" "VADJ (2.85VDC)"
+		(property "Value" "VADJ (3.25VDC Unloaded)"
 			(at 193.294 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2535,7 @@
 				)
 			)
 		)
-		(property "Value" "LM317 / LM350 / LM338 Regulator Module (VADJ 2.85VDC)"
+		(property "Value" "LM317/LM350/LM338 Regulator Module (VADJ 3.25VDC)"
 			(at 130.556 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
